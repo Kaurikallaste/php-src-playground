@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug php-src (test.php)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/php-src/sapi/cli/php",
+            "args": ["${workspaceFolder}/test.php"],
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "preLaunchTask": "make php-src"
+        }
+    ]
+}

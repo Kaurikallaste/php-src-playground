@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make php-src",
+            "type": "shell",
+            "command": "make -C ${workspaceFolder}/php-src -j$(nproc)",
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
